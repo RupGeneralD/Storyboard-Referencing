@@ -7,6 +7,13 @@
 //
 
 import UIKit
+import ObjectiveC
+
+extension UIStoryboard {
+	func myInit() {
+		print("SB is instantiated.")
+	}
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
